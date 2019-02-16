@@ -1,0 +1,80 @@
+.title {
+background-color: #0011FF;
+ border: 3px solid black;
+ text-align : center;
+ font-family : Times New Roman ; color : White ; font-size : 38pt;
+  }
+  
+.item_title{
+text-align : center;
+color : white;
+padding : 4px;
+background : #0CB20D;
+ }
+
+#mobil {
+animation-name: mobil;
+animation-iteration-count:infinite;
+width: 150px;
+height: 100px;
+animation-duration: 7s;
+background-color: white;
+position: relative;
+}
+
+@keyframes mobil {
+0%{left: 0px; top: 0px;}
+50%{left: 1300px; top:0px;}
+100%{right: 0px; top: 0px;}
+}	
+
+  
+.item_list_left {
+float : left;
+background : red;
+overflow: scroll;
+width : 300px;
+height : 690px;
+border : 2px solid black;
+
+  }
+	 
+.item_list_right {
+background : red;
+float : right;
+border : 3px solid black;
+overflow: scroll; 
+width : 937px;
+height : 690px;
+
+ }
+  
+ .item{
+height:150;
+margin: 5px;
+width:150;
+border : 3px dotted yellow;
+ }
+  
+.container-flex {
+  flex-wrap: wrap;
+  align-content: stretch;
+  background-color: red;
+  display: flex;
+  height: 600px;
+
+}
+
+.container-flex > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 30px;
+  text-align: center;
+
+ }
+
+ .item:hover {
+ 	border : 5px solid yellow;
+
